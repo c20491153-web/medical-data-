@@ -14,7 +14,7 @@ import json
 import os
 
 # File paths
-JSON_FILE = r"C:/Users/ayadi/Desktop/medical tems/output.json"
+JSON_FILE = "output.json"
 
 UPDATED_FILE = "output_annotated.json"
 
@@ -55,3 +55,4 @@ else:
         file_name="output_annotated.json",
         mime="application/json"
     )
+
